@@ -1,0 +1,30 @@
+ion-avatar {
+  width: 120px;
+  height: 120px;
+  margin: 0 auto; /* centraliza */
+}
+
+ion-avatar img {
+  object-fit: cover;
+}
+.perfil-container {
+  background: #1e1e1e;
+  padding: 30px;
+  color: white;
+  text-align: center;
+
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.perfil-container h2 {
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+.perfil-container p {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+ion-button{
+ color: #ffffff;
+}

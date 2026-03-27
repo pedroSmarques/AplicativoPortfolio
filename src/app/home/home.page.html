@@ -1,21 +1,31 @@
-<ion-header [translucent]="true">
+<ion-header>
   <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
+    <ion-title>Cartão Digital</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Pedro Marques</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content class="ion-padding">
 
-  <div id="container">
-    <strong>SEJA BEM-VINDO</strong>
-    <p>Aqui se inicia o meu portfolio pessoal <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">Pedro Marques</a></p>
-    <ion-button expand="full" (click)="navigateToDetails()">SOBRE</ion-button>
-  </div>
+
+  <ion-avatar>
+    <img src="assets/eu.jpeg" />
+  </ion-avatar>
+
+
+  <h2>
+    Pedro Henrique Souza Marques
+  </h2>
+
+
+  <p>
+    Turma: ADS0301M <br>
+    Unidade: BS <br>
+    Turno: Manhã
+  </p>
+
+
+  <ion-button expand="block" (click)="navigateToDetails()">
+    Sobre
+  </ion-button>
+
 </ion-content>
